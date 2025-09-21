@@ -13,7 +13,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), 'modules'))
 
 # Import modules directly since they're in the modules folder with __init__.py
 try:
-    from document_parser import DocumentParser  # Note: it's document_parser not document_processor
+    from document_processor import DocumentProcessor  # Note: it's document_parser not document_processor
     from workflow_visualizer import WorkflowVisualizer
     from supplier_manager import SupplierManager
     from email_generator import EmailGenerator
